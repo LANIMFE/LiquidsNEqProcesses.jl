@@ -12,7 +12,7 @@ using LinearAlgebra: I
 
 
 ### Exports
-export Interpolator, interpolate!
+export Interpolator, find_arrest, interpolate!
 
 
 ### Implementation
