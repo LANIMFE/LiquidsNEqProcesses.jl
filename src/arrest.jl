@@ -12,7 +12,7 @@ function find_arrest(S₀, S₁; rtol = eps(), artol = sqrt(eps()))
     Z = similar(w)
     T = eltype(K)
 
-    i  = argmax(abs.(Λᵤ.A))
+    i  = argmax(Λᵤ.A)
     u₀ = zero(T)
     u₁ = log(floatmax(T)) / abs(Λᵤ.A[i])
     uₘ = u₁ / 2
