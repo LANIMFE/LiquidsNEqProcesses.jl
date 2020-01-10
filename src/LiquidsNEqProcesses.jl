@@ -17,6 +17,7 @@ export Interpolator, interpolate!
 
 ### Implementation
 include("interpolation.jl")
+include("arrest.jl")
 
 
 end # module
