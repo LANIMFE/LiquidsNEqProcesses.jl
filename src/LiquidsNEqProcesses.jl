@@ -17,6 +17,7 @@ export Interpolator, find_arrest, interpolate!
 
 ### Implementation
 include("interpolation.jl")
+include("arrest.jl")
 
 
 end # module
